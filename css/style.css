@@ -73,7 +73,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--navyblue);
+  color: var(--navy-blue);
 }
 
 .header-address-contact {
@@ -109,19 +109,22 @@ ul {
 .section-one-title {
   opacity: 0;
   pointer-events: none;
+  letter-spacing: 0.02em;
 }
 
 .section-one-subtitle {
-  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .section-one-text {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* ======================= SECTION3 ================== */
@@ -131,6 +134,6 @@ ul {
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.11;
-  color: var(--navyblue);
+  color: var(--navy-blue);
   text-transform: capitalize;
 }
