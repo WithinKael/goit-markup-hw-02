@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
-
 /* ======================= VARIABLES ================== */
 
-:root {
+body {
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -16,12 +14,14 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
   font-family: "Roboto", sans-serif;
-  color: var(--text);
+  color: var(--slate);
+  background-color: var(--white);
   font-style: normal;
   font-weight: 400;
 }
 
 button {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: var(--iris);
   color: var(--white);
@@ -53,17 +53,17 @@ ul {
   background-color: var(--white-background);
 }
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.16;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
 }
 
 .header-logo span {
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 
 .header-nav-link {
@@ -122,6 +122,6 @@ ul {
   color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   text-transform: capitalize;
 }
