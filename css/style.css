@@ -34,8 +34,8 @@ button:hover,
   background-color: var(--ocean);
 }
 
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
 .link {
