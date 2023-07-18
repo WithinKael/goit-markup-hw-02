@@ -29,8 +29,7 @@ button {
   color: var(--white);
 }
 
-button:hover,
-:focus {
+button:hover,button:focus {
   background-color: var(--ocean);
 }
 
@@ -44,8 +43,7 @@ button:hover,
   font-style: normal;
 }
 
-.link:hover,
-:focus {
+.link:hover,.link:focus {
   color: var(--ocean);
 }
 
@@ -73,13 +71,19 @@ button:hover,
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
 .header-address-contact {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+address {
+  font-style: normal;
 }
 
 /* ======================= SECTION1 ================== */
