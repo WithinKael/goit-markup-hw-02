@@ -207,3 +207,29 @@ address {
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
+
+/* ======================= PORTFOLIO ================== */
+
+.portfolio-filter-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris, #4d5ae5);
+  background-color: var(--cloud);
+}
+
+.portfolio-description-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+}
+
+.portfolio-description-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
