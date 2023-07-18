@@ -39,6 +39,7 @@ ul {
 .link {
   color: inherit;
   text-decoration: none;
+  font-style: normal;
 }
 
 .link:hover,
