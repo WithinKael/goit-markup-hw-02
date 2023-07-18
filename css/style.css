@@ -219,6 +219,11 @@ address {
   background-color: var(--cloud);
 }
 
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  color: var(--white);
+}
+
 .portfolio-description-title {
   font-size: 20px;
   font-weight: 500;
