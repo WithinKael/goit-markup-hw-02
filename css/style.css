@@ -145,7 +145,6 @@ ul {
 }
 
 .section-three-title {
-  color: var(--navyblue);
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -153,6 +152,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--navy-blue);
 }
 
 .section-three-team {
@@ -177,7 +177,7 @@ ul {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
